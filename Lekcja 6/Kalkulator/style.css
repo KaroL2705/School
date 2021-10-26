@@ -1,4 +1,106 @@
-.call{
-    
-    justify-content: center;
+.display{
+    background-color: rgb(201, 201, 201);
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+button {
+    width: 67px;
+    height: 55px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border-color:orange;
+    color: white;
+}
+
+#clear{
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(170, 170, 170);
+    width: 138px;
+    color: white;
+}
+
+#modulo{
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(170, 170, 170);
+    color: white;
+}
+
+#zero{
+    width: 138px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#equal{
+    background-color: orange;
+    border-color: orange;
+    border-bottom-right-radius: 10px ;
+    color: white;
+}
+
+#one{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#two{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#three{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#four{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#five{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#six{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#seven{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#eight{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#nine{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+#dot{
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+    color: white;
 }
