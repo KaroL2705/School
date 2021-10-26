@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.one{
+    background-color: cyan;
+    float: left;
+    width: 40%;
+    height: 100px;
+}
+
+.half{
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+
+.two{
+    background-color: darkcyan;
+    height: 50px;
+    width: 20%;
+}
+
+.three{
+    background-color: cyan;
+    height: 50px;
+    width: 20%;
+}
+
+.four{
+    background-color: darkcyan;
+    float: left;
+    width: 40%;
+    height: 100px;
+}
+
+.five{
+    background-color:crimson ;
+    width: 25%;
+    height: 750px;
+    float: left;
+}
+
+.six{
+    background-color:greenyellow;
+    width: 75%;
+    height: 750px;
+    float: left;
+}
+
+.seven{
+    background-color: hotpink;
+    width: 100%;
+    height: 50px;
+    float: left;
+}

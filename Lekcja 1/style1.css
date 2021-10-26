@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.logo{
+    background-color: aquamarine;
+    width: 40%;
+    height: 100px;
+    flex: 1;
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+
+.menu{
+    background-color: bisque;
+    width: 20%;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu2{
+    background-color: cadetblue;
+    width: 20%;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    background-color: chocolate;
+    width: 40%;
+    height: 100px;
+    flex: 1;
+    display: inline-flex;
+}

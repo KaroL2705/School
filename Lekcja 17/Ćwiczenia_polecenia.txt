@@ -1,0 +1,5 @@
+mail="<a href="mailto:lukasz.fimiak@zspwrzesnia.pl">Mój mail</a> // wyszukaj tylko sam adres
+
+wyszukiwanie słowa w podanym tekście od użytkownika i zwrócenie informacji
+
+w tekscie podanym przez użytkownika policz ile występuje samogłosek
