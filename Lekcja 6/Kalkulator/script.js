@@ -1,23 +1,25 @@
-function calculator(){
-    let number1= document.getElementById("number1");
-    let number2= document.getElementById("number2");
-    let number3= document.getElementById("number3");
-    let number4= document.getElementById("number4");
-    let number5= document.getElementById("number5");
-    let number6= document.getElementById("number6");
-    let number7= document.getElementById("number7");
-    let number8= document.getElementById("number8");
-    let number9= document.getElementById("number9");
-    let number0= document.getElementById("number0");
-    number1= preseInt(number1);
-    number2= preseInt(number2);
-    number3= preseInt(number3);
-    number4= preseInt(number4);
-    number5= preseInt(number5);
-    number6= preseInt(number6);
-    number7= preseInt(number7);
-    number8= preseInt(number8);
-    number9= preseInt(number9);
-    number0= preseInt(number0);
-
+function forclear() {
+    document.getElementById("output").innerHTML = "0";
+}
+function removeZero() {
+    var value = document.getElementById("output").innerHTML;
+    if (value == "0") {
+         value = " "
+         document.getElementById("output").innerHTML = value;
+    }
+}
+function perc() {
+    var value = document.getElementById("output").innerHTML;
+    value = value / 100;
+    document.getElementById("output").innerHTML = value;
+}
+function fordisplay(value) {
+    removeZero()
+    document.getElementById("output").innerHTML += value;
+}
+function solve() {
+    removeZero()
+    var equation = document.getElementById("output").innerHTML;
+    var solved = eval(equation);
+    document.getElementById('output').innerHTML = solved;
 }
