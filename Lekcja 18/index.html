@@ -14,11 +14,37 @@
         <input type="text" id="text">
         <button id="textconfirm" onclick="text()">✓</button><br/>
         
+        <label>Podaj rozmiar tekstu: </label>
+            <input type="number" id="fontsize">
+            <button id="fonts" onclick="fontSize()">✓</button><br/>
+            
+        <label>Kolor czcionki:</label>
+            <input type="color" id="fontc">
+            <button id="borderconfirm" onclick="fontColor()">✓</button><br/>
+
+        <label>Format tekstu:</label><br>
+            <label>Pogrubiony</label>
+            <input type="checkbox">
+            <label>Pochylony</label>
+            <input type="checkbox">
+            <label>Podkreślony</label>
+            <input type="checkbox">
+            <button id="borderconfirm" onclick="">✓</button><br/>
+
+        <label>Grubość obramowania</label>
+            <input type="number" id="borderbold">
+            <button id="borderconfirm" onclick="">✓</button><br/>
+            <button id="wielkiel">Zmień na wielie litery</button><br>
+
         <label id="bgcolor">
             <button id="bred" onclick="BackgroundColor()">Czerwony</button>
             <button id="bblue" onclick="BackgroundColor()">Niebieski</button>
             <button id="byellow" onclick="BackgroundColor()">Żółty</button> <br>
         </label>
+        
+        <label>Kolor obramowania:</label>
+            <input type="color" id="bordercolor">
+            <button id="borderconfirm" onclick="">✓</button><br/>
         
         <label>Wybierz rodzaj obramowania</label>
             <select id="borders">
@@ -29,28 +55,7 @@
             </select>
             <button id="borderconfirm" onclick="borderStyle()">✓</button><br/>
 
-        <label>Podaj rozmiar tekstu: </label>
-            <input type="number" id="fontsize">
-            <button id="fonts" onclick="fontSize()">✓</button><br/>
-
-        <label id="fontcolor">Kolor czcionki:</label>
-            <input type="color" id="fontc">
-            <button id="borderconfirm" onclick="">✓</button><br/>
-        <label>Kolor obramowania:</label>
-            <input type="color" id="bordercolor">
-            <button id="borderconfirm" onclick="">✓</button><br/>
-        <label>Grubość obramowania</label>
-            <input type="number" id="borderbold">
-            <button id="borderconfirm" onclick="">✓</button><br/>
-            <button id="wielkiel">Zmień na wielie litery</button><br>
-        <label>Format tekstu:</label><br>
-            <label>Pogrubiony</label>
-            <input type="checkbox">
-            <label>Pochylony</label>
-            <input type="checkbox">
-            <label>Podkreślony</label>
-            <input type="checkbox">
-            <button id="borderconfirm" onclick="">✓</button><br/>
+            
     </div>
     <br><br><br><br>
     <div id="paragraf">

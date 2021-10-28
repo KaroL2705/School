@@ -38,15 +38,15 @@ function borderStyle(){
 
 function fontSize(){
     fs= document.getElementById("fontsize").value;
-    document.getElementById("paragraf").style.fontSize="";
-
+    document.getElementById("paragraf").style.fontSize=+fs+"px";
 }
 
 function fontColor(){
-
+    fc= document.getElementById("fontc").value;
+    document.getElementById("paragraf").style.color="rgb"+fc;
 }
 
 function borderColor(){
-
+    
 }
 
