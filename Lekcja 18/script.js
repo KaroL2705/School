@@ -37,13 +37,27 @@ function borderStyle(){ //zmienia typ obramowania
 }
 
 function fontSize(){ //zmnienia rozmiar czcionki
-    fs= document.getElementById("fontsize").value;
+    let fs= document.getElementById("fontsize").value;
     document.getElementById("paragraf").style.fontSize=+fs+"px";
 }
 
-function fontColor(){ //zmienia kolorczcionki
-    fc= document.getElementById("fontc").value;
-    document.getElementById("paragraf").style.color=+fc;
+function fontColor(){ //zmienia kolor czcionki
+    let fontcolor= document.getElementById("fontc").value;
+    document.getElementById("paragraf").style.color=+fontcolor;
+}
+
+function textformat(){
+    let bold= document.getElementById("bold").value;
+    let italics= document.getElementById("italics").value;
+    let underline= document.getElementById("underline").value;
+    
+    if(bold=true){
+        document.getElementById("paragraf").style.fontWeight="700";
+    } else if (italics==true){
+        document.getElementById("paragraf").style.fontStyle="italic";
+    } else {
+        document.getElementById("paragraf").style.textDecoration="underline";
+    }
 }
 
 function borderColor(){ //zmienia color obramowania
