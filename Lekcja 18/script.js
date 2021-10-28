@@ -1,9 +1,9 @@
-function text(){
+function text(){ // wpisuje tekst
     let text= document.getElementById("text").value;
     document.getElementById("paragraf").innerHTML= text;
 }
 
-function backgroundColor(){
+function backgroundColor(){ //zmienia kolor tła
     let bgcolor= document.getElementById("bgcolor").value;
     switch (bgcolor){
         case 'Czerwony':
@@ -18,7 +18,7 @@ function backgroundColor(){
     }
 }
 
-function borderStyle(){
+function borderStyle(){ //zmienia typ obramowania
     let brstyle= document.getElementById("borders").value;
     switch (brstyle){
         case 'hidden':
@@ -36,17 +36,17 @@ function borderStyle(){
     }
 }
 
-function fontSize(){
+function fontSize(){ //zmnienia rozmiar czcionki
     fs= document.getElementById("fontsize").value;
     document.getElementById("paragraf").style.fontSize=+fs+"px";
 }
 
-function fontColor(){
+function fontColor(){ //zmienia kolorczcionki
     fc= document.getElementById("fontc").value;
-    document.getElementById("paragraf").style.color="rgb"+fc;
+    document.getElementById("paragraf").style.color=+fc;
 }
 
-function borderColor(){
+function borderColor(){ //zmienia color obramowania
     
 }
 
