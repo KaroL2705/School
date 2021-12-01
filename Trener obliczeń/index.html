@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#" onclick='changeOperation("dodawanie")'>Dodawanie</a></li>
+        <li><a href="#" onclick='changeOperation("odejmowanie")'>Odejmowanie</a></li>
+        <li><a href="#" onclick='changeOperation("mnozenie")'>Mnożenie</a></li>
+        <li><a href="#" onclick='changeOperation("dzielenie")'>Dzielenie</a></li>
+        <li><a href="#" onclick='startTest()'>test</a></li>
+    </ul>
+    <h1 id="process"></h1>
+    <h5 id="pointsH" hidden="true">Twoje punkty: 0</h5>
+    <h5 id="zadania" hidden="true"></h5>
+    <input id="result" type="number">
+    <input id="check" type="button" onclick="check()" value="Sprawdź">
+    <script src="script.js"></script>
+    <h2 id="odpowiedz"></h2>
+</body>
+</html>
