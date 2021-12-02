@@ -16,9 +16,9 @@ użytkownika za pomocą funkcji set.....
 TAK 8. Oblicz ile czasu minęło pomiedzy dwoma datami, podanymi przez użytkownika 
 w formularzu.
 TAK 9. Napisz generator losowych adresów e-mail w domenie testowa.pl np. wertf23srtyt@testowa.pl
-10. Napisz skrypt, który z podanego adresu e-mail przez użytkownika odczyta 
+TAK 10. Napisz skrypt, który z podanego adresu e-mail przez użytkownika odczyta 
 adres domeny. np. lukasz.fimiak@onet.pl -> onet.pl
-11. Oblicz wynik działania:
+TAK 11. Oblicz wynik działania:
  x do potęgi 5 + x do potęgi 3 - pierwiastek kwadratowy z x 
  - wynik zaokrąglij do dwóch miejsc po przecinku, x podaje użytkownik
 12. Wyświetl najmniejszą liczbę z podanych oraz oblicz sumę wszystkich liczb 
