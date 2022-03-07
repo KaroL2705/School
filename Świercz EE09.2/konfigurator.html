@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="left">
+        <h1>Konfigurator stylu</h1>
+
+        <!-- Kolor tła-->
+        <p>Podaj kolor tła</p>
+        <button id="indigo" onclick="change_to_indigo()">Indigo</button>
+        <button id="steelblue" onclick="change_to_steelblue()">SteelBlue</button>
+        <button id="olive" onclick="change_to_olive()">Olive</button>
+
+        <!-- Kolor czcionko-->
+        <p>Podaj kolor czcionki</p>
+        <select onchange="change_font_color()" class="list" id="list">
+            <option value="white">White</option>
+            <option value="tan">Tan</option>
+            <option value="bisque">Bisque</option>
+            <option value="plum">Plum</option>
+        </select>
+
+        <!-- Rozmiar czcionki-->
+        <p>Podaj rozmiar czcionki w procentach np. 200%</p>
+        <input type="text" id="czcionka" onchange="change_size()" value="100%">
+
+        <!-- Zapytanie o ramkę-->
+        <p>Czy rysunek ma mieć ramkę</p>
+        <input type="checkbox" id="cbox" class="cbox" onchange="change_border()" checked> Rysuj ramkę <br/>
+
+        <!-- Rodzaj punktorów-->
+        <p>Jaki jest typ punktora listy?</p>
+        <input type="radio" checked onchange="radio('dysk')" name="punktor">dysk<br>
+        <input type="radio" onchange="radio('kwadrat')" name="punktor">kwadrat<br>
+        <input type="radio" onchange="radio('okrąg')" name="punktor">okrąg<br>
+
+    </div>
+
+
+    <div class="right" id="right">
+
+        <img src="gibraltar.jpg" alt="półwysep Gibraltar">
+
+        <ul id="lista2">
+            <li>element1</li>
+            <li>element2</li>
+            <li>element3</li>
+        </ul>
+
+        <p id="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </p>
+
+
+    </div>
+    <div class="footer">
+        <p>Autor: Karol Świercz</p>
+    </div>
+</body>
+</html>

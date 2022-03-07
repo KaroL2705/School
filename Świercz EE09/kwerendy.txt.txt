@@ -1,0 +1,4 @@
+SELECT * FROM `pogoda` WHERE miasta_id=1 ORDER BY `pogoda`, `data_prognozy` ASC
+SELECT id, data_prognozy FROM `pogoda` WHERE opady >30 ORDER BY `pogoda`, `data_prognozy` ASC
+SELECT data_prognozy, temperatura_noc, nazwa FROM `pogoda`, `miasta` WHERE temperatura_noc <6 ORDER BY `pogoda`.`data_prognozy`  ASC
+alter table miasta add column województwo char
