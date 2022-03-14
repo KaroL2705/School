@@ -45,7 +45,7 @@ function change_size(){
 }
 
 function change_border(){
-
+    console.log(document.getElementById('box').checked)
     if (document.getElementById('box').checked) {
         document.getElementById('img').style.border = '1px solid white';
     }
@@ -54,4 +54,16 @@ function change_border(){
     }
 }
 
+function radio(punktor){
+    let punktory= document.getElementById('lista2');
+    if (punktor == 'dysk') {
+        punktory.style.listStyle = 'disc';
+    }
+    if (punktor == 'kwadrat') {
+       punktory.style.listStyle = 'square';
+    }
+    if (punktor == 'okrąg') {
+        punktory.style.listStyle = 'circle';
+    }
 
+}

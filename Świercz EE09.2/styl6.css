@@ -33,8 +33,7 @@ p{
 }
 img{
     padding: 10px;
-    border: 1px solid;
-    border-color: white; 
+    border: solid 1px white;
     float: left;
 }
 
