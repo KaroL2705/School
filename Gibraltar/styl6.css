@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia;
+    margin: 0 0;
+}
+
+.left{
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+
+.right{
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.footer{
+    background-color: dimgray;
+    color: white;
+    width: 100%;
+    float: left;
+}
+
+p{
+    padding: 10px;
+}
+img{
+    padding: 10px;
+    border: solid 1px white;
+    float: left;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#steelblue{
+    background-color: steelblue;
+}
+
+#olive{
+    background-color: olive;
+}
+
+#lista2{
+    float: left;
+}
+
+#lorem{
+    float: left;
+}
