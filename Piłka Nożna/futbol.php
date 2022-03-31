@@ -15,13 +15,26 @@
     </div>
 
     <div class="mecze">
-
         <div class="block">
-
+            <h3> HVG - FCB </h3><br>
+            <h4> 3:1 </h4><br>
+            <p>W dniu: 2019-05-14</p>
         </div>
-        <?php
-
-        ?>
+        <div class="block">
+            <h3> HVG - FCB </h3><br>
+            <h4> 3:1 </h4><br>
+            <p>W dniu: 2019-05-14</p>
+        </div>
+        <div class="block">
+            <h3> HVG - FCB </h3><br>
+            <h4> 3:1 </h4><br>
+            <p>W dniu: 2019-05-14</p>
+        </div>
+        <div class="block">
+            <h3> HVG - FCB </h3><br>
+            <h4> 3:1 </h4><br>
+            <p>W dniu: 2019-05-14</p>
+        </div>
     </div>
 
     <div class="main">
@@ -31,8 +44,10 @@
     <div class="left">
         <p>Podaj pozycję zawodników (1-bramkarze, 2-obrońcy, 3-pomocnicy,
             4-napastnicy):</p>
-        <form action="POST">
-            <input type="number">
+        <form action="">
+            <label>
+                <input type="number">
+            </label>
             <input type="submit" value="Sprwadź">
         </form>
 

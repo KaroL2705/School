@@ -7,9 +7,12 @@
 .banner{
     height: 370px;
     color: white;
+    width: 100%;
     text-align: center;
 }
-
+.mecze{
+    display: flex;
+}
 .block{
     color: white;
     text-align: center;
@@ -17,10 +20,11 @@
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    flex: fit-content;
 }
 
 .block:hover{
-    border-color: white;
+    border: 1px solid white;
 }
 
 .main{
